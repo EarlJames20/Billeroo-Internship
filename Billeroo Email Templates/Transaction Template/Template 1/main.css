@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #cccccc;
+}
+table {
+    border-spacing: 0;
+}
+td {
+    padding: 0;
+}
+img {
+    border: 0;
+}
+.wrapper {
+    width: 100%;
+    table-layout: fixed;	
+    background-color: #cccccc;
+}
+.main {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-spacing: 0;
+    font-family: Helvetica;
+    border-spacing: 0;
+}
+.email-subheader{
+    text-align: center;
+}
+.email-body p {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.account-summary {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7f4da;
+    padding: 0 30px 20px;
+}
+.summary-field {
+    color: #079646;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+} 
+.header1 td{
+    text-align: center;
+    height: 100px;
+    background-color: #079646;
+}
+.header2 td{
+    height: 15px;
+    background-color: #8dc847;
+}
+.email-title td {
+    color: #079646;
+    font-size: 14px;
+    padding: 5px 25px 0px 25px; 
+    text-align: center;
+}
+.email-body p {
+    font-size: 16px;
+    padding-left:  5px; 
+    padding-bottom: 30px;
+}
+.email-body span {
+    font-weight: bold;
+}
+.email-footer {
+    text-align: left;
+    background-color: #079646;
+}
+.email-footer .logo{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.email-footer .footer-content {
+    text-align: left;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+.email-footer .address, .phone, .email {
+    padding-left: 10px;
+}
